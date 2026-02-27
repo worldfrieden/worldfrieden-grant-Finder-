@@ -1,5 +1,3 @@
-# worldfrieden-grant-Finder-
-Finds grants in East Africa and Ukraine
 <!DOCTYPE html>
 <html lang="en">
 <head>
