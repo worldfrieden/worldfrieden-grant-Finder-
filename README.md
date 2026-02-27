@@ -13,7 +13,19 @@ Live grant opportunities for African and Ukrainian school projects.
 5. Add new grant objects following this format:
    ```javascript
    {
-       id: "unique-id-001",
+       {
+    id: "unique-id-001",
+    title: "Grant Name",
+    organization: "Org Name",
+    region: "africa", // or "ukraine"
+    amount: "$10,000",
+    deadline: "2026-12-31",
+    deadlineText: "December 31, 2026",
+    category: "Education",
+    description: "Brief description here",
+    link: "https://example.com/apply",
+    urgent: false
+}id: "unique-id-001",
        title: "Grant Name",
        organization: "Org Name",
        region: "africa", // or "ukraine"
@@ -93,15 +105,5 @@ Live grant opportunities for African and Ukrainian school projects.
 
 
 {
-    id: "unique-id-001",
-    title: "Grant Name",
-    organization: "Org Name",
-    region: "africa", // or "ukraine"
-    amount: "$10,000",
-    deadline: "2026-12-31",
-    deadlineText: "December 31, 2026",
-    category: "Education",
-    description: "Brief description here",
-    link: "https://example.com/apply",
-    urgent: false
+
 }
